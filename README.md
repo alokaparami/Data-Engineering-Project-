@@ -1,13 +1,14 @@
-# End-to-End Data Engineering Project 01
+# End-to-End Data Engineering - Atlicon
 
-An incremental ETL pipeline on Databricks using PySpark Structured Streaming and Medallion Architecture (Bronze, Silver, Gold), with a dbt star schema in the Gold layer.
+A data pipeline on Databricks, PySpark and Amazon S3 that ingests data from multiple business sources into the Bronze layer, with full-load and incremental-load processes to support analytics.
 
 ## Tech Stack
-Python, PySpark, Databricks, Delta Lake, dbt, SQL
+Databricks, PySpark, SQL, Delta Lake, Amazon S3
 
 ## Key Features
-- Incremental ingestion with PySpark Structured Streaming
-- Reusable Python classes for cleaning, deduplication and UPSERT
-- dbt incremental models and SCD Type 2 snapshots
+- Bronze-layer ingestion from multiple business sources
+- Full-load and incremental-load processes
+- Data stored in Delta Lake on Amazon S3
+
 
 
